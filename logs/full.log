@@ -1,0 +1,231 @@
+2021-05-18 18:24:12 - info [app.js]: Initializing...
+2021-05-18 18:24:12 - info [app.js]: Loading commands...
+2021-05-18 18:24:13 - info [app.js]: 
+.-----------------------------------------------------------------------------------.
+|                                     Commands                                      |
+|-----------------------------------------------------------------------------------|
+|           File            |               Aliases               |  Type  | Status |
+|---------------------------|-------------------------------------|--------|--------|
+| setadminrole.js           | setar, sar                          | admin  | pass   |
+| setautokick.js            | setak, sak                          | admin  | pass   |
+| setautorole.js            | setaur, saur                        | admin  | pass   |
+| setcommandpoints.js       | setcp, scp                          | admin  | pass   |
+| setcrownchannel.js        | setcc, scc                          | admin  | pass   |
+| setcrownmessage.js        | setcrownmsg, setcm, scm             | admin  | pass   |
+| setcrownrole.js           | setcr, scr                          | admin  | pass   |
+| setcrownschedule.js       | setcs, scs                          | admin  | pass   |
+| setfarewellchannel.js     | setfc, sfc                          | admin  | pass   |
+| setfarewellmessage.js     | setfarewellmsg, setfm, sfm          | admin  | pass   |
+| setmemberlog.js           | setmeml, smeml                      | admin  | pass   |
+| setmessagedeletelog.js    | setmsgdeletelog, setmdl, smdl       | admin  | pass   |
+| setmessageeditlog.js      | setmsgeditlog, setmel, smel         | admin  | pass   |
+| setmessagepoints.js       | setmsgpoints, setmp, smp            | admin  | pass   |
+| setmodchannels.js         | setmodcs, setmcs, smcs              | admin  | pass   |
+| setmodlog.js              | setml, sml                          | admin  | pass   |
+| setmodrole.js             | setmr, smr                          | admin  | pass   |
+| setmuterole.js            | setmur, smur                        | admin  | pass   |
+| setnicknamelog.js         | setnnl, snnl                        | admin  | pass   |
+| setprefix.js              | setp, sp                            | admin  | pass   |
+| setrolelog.js             | setrl, srl                          | admin  | pass   |
+| setstarboardchannel.js    | setstc, sstc                        | admin  | pass   |
+| setsystemchannel.js       | setsc, ssc                          | admin  | pass   |
+| settings.js               | set, s, config, conf                | admin  | pass   |
+| setverificationchannel.js | setvc, svc                          | admin  | pass   |
+| setverificationmessage.js | setverificationmsg, setvm, svm      | admin  | pass   |
+| setverificationrole.js    | setvr, svr                          | admin  | pass   |
+| setvoicepoints.js         | setvp, svp                          | admin  | pass   |
+| setwelcomechannel.js      | setwc, swc                          | admin  | pass   |
+| setwelcomemessage.js      | setwelcomemsg, setwm, swm           | admin  | pass   |
+| togglecommand.js          | togglec, togc, tc                   | admin  | pass   |
+| togglepoints.js           | togglep, togp                       | admin  | pass   |
+| togglerandomcolor.js      | togglerc, togrc, trc                | admin  | pass   |
+| toggletype.js             | togglet, togt, tt                   | admin  | pass   |
+| color.js                  | changecolor, colour, c              | color  | pass   |
+| colors.js                 | colorlist, colours, cols, cs        | color  | pass   |
+| createcolor.js            | cc                                  | color  | pass   |
+| createdefaultcolors.js    | cdc                                 | color  | pass   |
+| randomcolor.js            | rc                                  | color  | pass   |
+| 8ball.js                  | fortune                             | fun    | pass   |
+| bird.js                   |                                     | fun    | pass   |
+| cat.js                    | kitten, kitty                       | fun    | pass   |
+| catfact.js                | cf                                  | fun    | pass   |
+| coinflip.js               | cointoss, coin, flip                | fun    | pass   |
+| dog.js                    | puppy, pup                          | fun    | pass   |
+| dogfact.js                | df                                  | fun    | pass   |
+| duck.js                   |                                     | fun    | pass   |
+| emojify.js                | sayemoji                            | fun    | pass   |
+| fox.js                    |                                     | fun    | pass   |
+| meme.js                   |                                     | fun    | pass   |
+| roll.js                   | dice, r                             | fun    | pass   |
+| rps.js                    |                                     | fun    | pass   |
+| say.js                    |                                     | fun    | pass   |
+| shibe.js                  |                                     | fun    | pass   |
+| solotrivia.js             | solotriv, striv, solot, st          | fun    | pass   |
+| thouart.js                | elizabethan, ta                     | fun    | pass   |
+| topics.js                 | triviatopics, categories, ts        | fun    | pass   |
+| trivia.js                 | triv, t                             | fun    | pass   |
+| trumptweet.js             | trump                               | fun    | pass   |
+| yesno.js                  | yn                                  | fun    | pass   |
+| yomomma.js                | yourmom, yomamma, yomama, ym        | fun    | pass   |
+| youtube.js                | yt                                  | fun    | pass   |
+| admins.js                 |                                     | info   | pass   |
+| aliases.js                | alias, ali, a                       | info   | pass   |
+| avatar.js                 | profilepic, pic, ava                | info   | pass   |
+| botinfo.js                | bot, bi                             | info   | pass   |
+| channelinfo.js            | channel, ci                         | info   | pass   |
+| emojis.js                 | e                                   | info   | pass   |
+| findid.js                 | find, id                            | info   | pass   |
+| gallery.js                | art                                 | info   | pass   |
+| github.js                 | gh, repo                            | info   | pass   |
+| help.js                   | commands, h                         | info   | pass   |
+| inviteme.js               | invite, invme, im                   | info   | pass   |
+| members.js                | memberstatus                        | info   | pass   |
+| mods.js                   |                                     | info   | pass   |
+| permissions.js            | perms                               | info   | pass   |
+| ping.js                   |                                     | info   | pass   |
+| prefix.js                 | pre                                 | info   | pass   |
+| roleinfo.js               | role, ri                            | info   | pass   |
+| servercount.js            | usercount, sc, uc                   | info   | pass   |
+| servericon.js             | icon, i                             | info   | pass   |
+| serverinfo.js             | server, si                          | info   | pass   |
+| serverstaff.js            | staff                               | info   | pass   |
+| stats.js                  | statistics, metrics                 | info   | pass   |
+| supportserver.js          | support, ss                         | info   | pass   |
+| uptime.js                 | up                                  | info   | pass   |
+| userinfo.js               | whois, user, ui                     | info   | pass   |
+| feedback.js               | fb                                  | misc   | pass   |
+| nickname.js               | changenickname, nick, nn            | misc   | pass   |
+| reportbug.js              | bugreport, report, bug, rb, br      | misc   | pass   |
+| addrole.js                | giverole, addr, ar                  | mod    | pass   |
+| ban.js                    |                                     | mod    | pass   |
+| clearwarns.js             |                                     | mod    | pass   |
+| kick.js                   |                                     | mod    | pass   |
+| mute.js                   |                                     | mod    | pass   |
+| purge.js                  | clear                               | mod    | pass   |
+| purgebot.js               | clearbot                            | mod    | pass   |
+| removerole.js             | remover, rr                         | mod    | pass   |
+| setnickname.js            | setnn, snn                          | mod    | pass   |
+| slowmode.js               | slow, sm                            | mod    | pass   |
+| softban.js                |                                     | mod    | pass   |
+| unban.js                  |                                     | mod    | pass   |
+| unmute.js                 |                                     | mod    | pass   |
+| warn.js                   |                                     | mod    | pass   |
+| warnpurge.js              | purgewarn                           | mod    | pass   |
+| warns.js                  | warnings                            | mod    | pass   |
+| blast.js                  |                                     | owner  | pass   |
+| eval.js                   |                                     | owner  | pass   |
+| leaveguild.js             |                                     | owner  | pass   |
+| servers.js                | servs                               | owner  | pass   |
+| wipeallpoints.js          | wipeap, wap                         | owner  | pass   |
+| wipealltotalpoints.js     | wipeatp, watp                       | owner  | pass   |
+| wipepoints.js             | wipep, wp                           | owner  | pass   |
+| wipetotalpoints.js        | wipetp, wtp                         | owner  | pass   |
+| crown.js                  | crowned                             | points | pass   |
+| explainpoints.js          | explainp, ep, howtopoints, h2points | points | pass   |
+| givepoints.js             | gp                                  | points | pass   |
+| leaderboard.js            | top, lb, rankings                   | points | pass   |
+| points.js                 | p                                   | points | pass   |
+| pointsper.js              | pointsp, pp                         | points | pass   |
+| position.js               | pos                                 | points | pass   |
+| totalpoints.js            | totalp, tp                          | points | pass   |
+'-----------------------------------------------------------------------------------'
+2021-05-18 18:24:13 - info [app.js]: 18 event(s) found...
+2021-05-18 18:24:13 - info [app.js]: Loading event: debug
+2021-05-18 18:24:13 - info [app.js]: Loading event: error
+2021-05-18 18:24:13 - info [app.js]: Loading event: guildCreate
+2021-05-18 18:24:13 - info [app.js]: Loading event: guildDelete
+2021-05-18 18:24:13 - info [app.js]: Loading event: guildMemberAdd
+2021-05-18 18:24:13 - info [app.js]: Loading event: guildMemberRemove
+2021-05-18 18:24:13 - info [app.js]: Loading event: guildMemberUpdate
+2021-05-18 18:24:13 - info [app.js]: Loading event: guildUpdate
+2021-05-18 18:24:13 - info [app.js]: Loading event: message
+2021-05-18 18:24:13 - info [app.js]: Loading event: messageDelete
+2021-05-18 18:24:13 - info [app.js]: Loading event: messageDeleteBulk
+2021-05-18 18:24:13 - info [app.js]: Loading event: messageReactionAdd
+2021-05-18 18:24:13 - info [app.js]: Loading event: messageReactionRemove
+2021-05-18 18:24:13 - info [app.js]: Loading event: messageUpdate
+2021-05-18 18:24:13 - info [app.js]: Loading event: ready
+2021-05-18 18:24:13 - info [app.js]: Loading event: userUpdate
+2021-05-18 18:24:13 - info [app.js]: Loading event: voiceStateUpdate
+2021-05-18 18:24:13 - info [app.js]: Loading event: warn
+2021-05-18 18:24:13 - info [app.js]: 24 topic(s) found...
+2021-05-18 18:24:13 - info [app.js]: Loading topic: anime
+2021-05-18 18:24:14 - info [app.js]: Loading topic: cars
+2021-05-18 18:24:14 - info [app.js]: Loading topic: darksouls
+2021-05-18 18:24:14 - info [app.js]: Loading topic: dota2abilities
+2021-05-18 18:24:14 - info [app.js]: Loading topic: dota2items
+2021-05-18 18:24:14 - info [app.js]: Loading topic: elements
+2021-05-18 18:24:14 - info [app.js]: Loading topic: finalfantasy
+2021-05-18 18:24:14 - info [app.js]: Loading topic: gameofthrones
+2021-05-18 18:24:14 - info [app.js]: Loading topic: greekmyth
+2021-05-18 18:24:14 - info [app.js]: Loading topic: harrypotter
+2021-05-18 18:24:14 - info [app.js]: Loading topic: leagueoflegends
+2021-05-18 18:24:14 - info [app.js]: Loading topic: leagueults
+2021-05-18 18:24:14 - info [app.js]: Loading topic: overwatch
+2021-05-18 18:24:14 - info [app.js]: Loading topic: slogans
+2021-05-18 18:24:14 - info [app.js]: Loading topic: sports
+2021-05-18 18:24:14 - info [app.js]: Loading topic: starwars
+2021-05-18 18:24:14 - info [app.js]: Loading topic: uscapitals
+2021-05-18 18:24:14 - info [app.js]: Loading topic: usflags
+2021-05-18 18:24:14 - info [app.js]: Loading topic: usmap
+2021-05-18 18:24:14 - info [app.js]: Loading topic: usstateabbreviations
+2021-05-18 18:24:14 - info [app.js]: Loading topic: videogames
+2021-05-18 18:24:14 - info [app.js]: Loading topic: worldcapitals
+2021-05-18 18:24:14 - info [app.js]: Loading topic: worldflags
+2021-05-18 18:24:14 - info [app.js]: Loading topic: worldmap
+2021-05-18 18:24:14 - info [app.js]: Updating database and scheduling jobs...
+2021-05-18 18:24:14 - info [app.js]: shadow has left RavnoGorska Straza
+2021-05-18 18:24:14 - info [app.js]: shadow is now online
+2021-05-18 18:24:14 - info [app.js]: shadow is running on 2 server(s)
+2021-05-18 18:24:45 - info [app.js]: shadow Bot#3579 user tag changed to Shadow RolePlay#3579
+2021-05-18 18:24:59 - info [app.js]: shadow has joined 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮
+2021-05-18 18:25:20 - error [app.js]: Missing Permissions
+2021-05-18 18:25:20 - error [app.js]: Missing Permissions
+2021-05-18 18:25:21 - error [app.js]: Missing Permissions
+2021-05-18 18:25:21 - error [app.js]: Missing Permissions
+2021-05-18 18:25:21 - error [app.js]: Missing Permissions
+2021-05-18 18:25:22 - error [app.js]: Missing Permissions
+2021-05-18 18:26:49 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: Dyno#3861 has left the server
+2021-05-18 18:27:13 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: Dank Memer#5192 has left the server
+2021-05-18 18:27:16 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: InviteLogger#5780 has left the server
+2021-05-18 18:27:20 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: 【༺𝐎𝐕𝐄𝐑𝐊𝐈𝐋𝐋༻】#3117 has left the server
+2021-05-18 18:27:20 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: Invite Tracker#0478 has left the server
+2021-05-18 18:27:28 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: Xenon#7325 has left the server
+2021-05-18 18:27:34 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: 【༺𝐎𝐕𝐄𝐑𝐊𝐈𝐋𝐋༻】#3117 has joined the server
+                                                             2021-05-18 18:29:48 - info [app.js]: Uki#5344 user tag changed to ᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼᲼#5344
+2021-05-18 18:33:32 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 server name changed to 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡
+2021-05-18 18:59:53 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡ server name changed to ⚡𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮⚡
+2021-05-18 19:00:24 - info [app.js]: ⚡𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮⚡ server name changed to 「⚡」𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮
+2021-05-18 19:00:31 - info [app.js]: 「⚡」𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 server name changed to 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮
+2021-05-18 19:02:56 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: Mare#5381 has joined the server
+2021-05-18 19:03:52 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: Maravic#5217 has joined the server
+2021-05-18 19:04:00 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: Maravic#5217 has left the server
+2021-05-18 19:07:28 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: Maravic#5217 has joined the server
+2021-05-18 19:08:06 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: Rakicc#4910 has joined the server
+2021-05-18 19:08:30 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: Rakicc#4910 has left the server
+2021-05-18 19:09:40 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: ≪ ＨｖＨ ≫ Чича Дража#3851 has joined the server
+2021-05-18 19:15:52 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: ≪ ＨｖＨ ≫ Чича Дража#3851 has left the server
+2021-05-18 19:16:22 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: ≪ ＨｖＨ ≫ Чича Дража#3851 has joined the server
+2021-05-18 19:16:43 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: ≪ ＨｖＨ ≫ Чича Дража#3851 has left the server
+2021-05-18 19:17:00 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: ≪ ＨｖＨ ≫ Чича Дража#3851 has joined the server
+2021-05-18 19:17:05 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: ≪ ＨｖＨ ≫ Чича Дража#3851 has left the server
+2021-05-18 20:13:49 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: Trki#4879 has joined the server
+2021-05-18 20:13:59 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: Trki#4879 has left the server
+2021-05-18 20:17:56 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: Pej4a#9348 has joined the server
+2021-05-18 20:18:20 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: Maravic#5217 has left the server
+2021-05-18 20:19:04 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮: Pej4a#9348 has left the server
+2021-05-18 20:25:08 - info [app.js]: 「⚡」 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 server name changed to 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡
+2021-05-18 20:44:12 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡: matkee#2570 has joined the server
+2021-05-18 20:57:37 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡: nikolatakacc#5437 has left the server
+2021-05-18 21:07:41 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡: Marko3#4550 has joined the server
+2021-05-18 21:15:47 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡: 𝕰𝖑 𝕮𝖆𝖕𝖔#1919 has joined the server
+2021-05-18 21:16:45 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡: 𝕰𝖑 𝕮𝖆𝖕𝖔#1919 has left the server
+2021-05-18 21:30:43 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡: radjennss#8762 has left the server
+2021-05-18 21:31:08 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡: radjennss#8762 has joined the server
+2021-05-18 21:42:15 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡: Jovanovic#0123 has left the server
+2021-05-18 22:29:52 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡: Nemanja39#9771 has joined the server
+2021-05-18 23:20:48 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡: Andreica04#8585 has joined the server
+2021-05-18 23:22:45 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡: ᴀɴᴀꨄ#3727 has joined the server
+2021-05-19 00:11:38 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡: stojanovski_#2845 has left the server
+2021-05-19 00:26:04 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡: dicvlax#2162 has left the server
+2021-05-19 00:32:40 - info [app.js]: 𝙎𝙝𝙖𝙙𝙤𝙬 𝙍𝙤𝙡𝙚𝙥𝙡𝙖𝙮 ⚡: 𝐗𝐧𝐱𝐱𝐒𝐨𝐦𝐢#5037 has joined the server
