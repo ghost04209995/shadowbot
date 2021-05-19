@@ -11,5 +11,23 @@
     "winston": "^3.3.3",
     "yaml": "^1.10.2",
     "youtube-search": "^1.1.6"
-  }
+  },
+  "name": "shadowbot",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghost04209995/shadowbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghost04209995/shadowbot/issues"
+  },
+  "homepage": "https://github.com/ghost04209995/shadowbot#readme",
+  "description": ""
 }
