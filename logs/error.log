@@ -1,9 +1,0 @@
-2021-05-19 16:22:15 - error [app.js]: An invalid token was provided.
-{
-  "stack": "Error [TOKEN_INVALID]: An invalid token was provided.
-    at WebSocketManager.connect (C:\\Users\\bokis\\Documents\\GitHub\\shadowbot\
-ode_modules\\discord.js\\src\\client\\websocket\\WebSocketManager.js:133:26)
-    at Client.login (C:\\Users\\bokis\\Documents\\GitHub\\shadowbot\
-ode_modules\\discord.js\\src\\client\\Client.js:223:21)
-    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
-}
