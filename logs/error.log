@@ -1,4 +1,4 @@
-2021-05-19 02:27:21 - error [app.js]: An invalid token was provided.
+2021-05-19 16:22:15 - error [app.js]: An invalid token was provided.
 {
   "stack": "Error [TOKEN_INVALID]: An invalid token was provided.
     at WebSocketManager.connect (C:\\Users\\bokis\\Documents\\GitHub\\shadowbot\

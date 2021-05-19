@@ -21,7 +21,7 @@ function init() {
   client.loadEvents('./src/events');
   client.loadCommands('./src/commands');
   client.loadTopics('./data/trivia');
-  client.login(process.env.BOT_TOKEN);
+  client.login(client.token);
 }
 
 init();
