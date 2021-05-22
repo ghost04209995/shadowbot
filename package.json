@@ -1,33 +1,9 @@
 {
   "dependencies": {
-    "ascii-table": "^0.0.9",
-    "better-sqlite3": "^7.4.0",
-    "common-tags": "^1.8.0",
+    "@discordjs/opus": "^0.5.0",
+    "discord-player": "^4.1.0",
     "discord.js": "^12.5.3",
-    "fs": "*",
-    "he": "^1.2.0",
-    "moment": "^2.29.1",
-    "node-os-utils": "^1.3.5",
-    "node-schedule": "^2.0.0",
-    "winston": "^3.3.3",
-    "yaml": "^1.10.2",
-    "youtube-search": "^1.1.6"
-  },
-  "name": "shadowbot",
-  "version": "1.0.0",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ghost04209995/shadowbot.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ghost04209995/shadowbot/issues"
-  },
-  "homepage": "https://github.com/ghost04209995/shadowbot#readme",
-  "description": ""
+    "ffmpeg-static": "^4.3.0",
+    "fs": "*"
+  }
 }
